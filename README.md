@@ -42,6 +42,13 @@ Explainable AI: Grad-CAM
 
 Image Processing & Visualization: NumPy, PIL, Matplotlib
 
+## ▶️ Running the Application
+
+The Streamlit web application is launched using the following command:
+
+```bash
+streamlit run C:\Users\Admin\PycharmProjects\PythonProject1\cp.py
+
 ## 📂 Project Structure
 ```bash
 ├── app/                 # Streamlit app and inference logic
