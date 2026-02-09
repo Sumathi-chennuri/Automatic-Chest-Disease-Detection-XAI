@@ -50,12 +50,10 @@ The Streamlit web application is launched using the following command:
 streamlit run C:\Users\Admin\PycharmProjects\PythonProject1\cp.py
 
 ## 📂 Project Structure
-```bash
 ├── app/                 # Streamlit app and inference logic
-├── models/              # Trained model weights
 ├── data/                # Sample chest X-ray images
-├── notebooks/           # Model training and experiments
 ├── docs/                # Report, architecture diagrams, and results
 ├── requirements.txt     # Project dependencies
 └── README.md
+
 
