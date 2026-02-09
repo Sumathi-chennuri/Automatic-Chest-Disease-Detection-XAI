@@ -2,39 +2,42 @@
 
 📌 Overview
 
-This project presents an AI-powered system for automatic detection of 14 thoracic diseases from chest X-ray images using a fine-tuned ResNet50 model integrated with Explainable AI (Grad-CAM).
-The system is deployed as a Streamlit web application, enabling real-time prediction and visual interpretability.
+This project presents an AI-powered system for automatic detection of 14 thoracic diseases from chest X-ray images using a fine-tuned ResNet50 deep learning model integrated with Explainable Artificial Intelligence (XAI) through Grad-CAM.
 
-🚀 Features
+The system is deployed as a Streamlit web application, enabling users to upload chest X-ray images, obtain multi-label disease predictions with probability scores, and visualize heatmaps highlighting clinically relevant regions that influenced the model’s decisions.
 
-Multi-label classification of 14 chest diseases
+🚀 Key Features
 
-Probability-based predictions using sigmoid activation
+Multi-label classification of 14 thoracic diseases
 
-Grad-CAM heatmaps for visual explanation
+Sigmoid-based probability outputs for each disease
 
-Real-time web interface using Streamlit
+Grad-CAM heatmaps for explainable predictions
 
-Clinically interpretable outputs
+Real-time inference via Streamlit web interface
+
+User-friendly and clinically interpretable outputs
 
 🧠 Model Architecture
 
 Backbone: ResNet50 (ImageNet pre-trained)
 
-Output Layer: 14 neurons (multi-label)
+Fine-tuning: Final fully connected layer modified for 14 disease classes
 
-Loss Function: Binary Cross-Entropy
+Activation Function: Sigmoid (multi-label classification)
 
-Explainability: Grad-CAM on last convolutional layer
+Loss Function: Binary Cross-Entropy (BCE)
+
+Explainability Module: Grad-CAM applied to the final convolutional layer
 
 🛠️ Tech Stack
 
-Python
+Programming Language: Python
 
-PyTorch
+Deep Learning Framework: PyTorch
 
-Streamlit
+Web Framework: Streamlit
 
-Grad-CAM
+Explainable AI: Grad-CAM
 
-NumPy, PIL, Matplotlib
+Image Processing & Visualization: NumPy, PIL, Matplotlib
