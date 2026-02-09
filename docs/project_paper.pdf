@@ -1,2 +1,1 @@
-copy ""C:\Users\Admin\Downloads\CP.pdf"" docs\
-
+copy "C:\Users\Admin\Downloads\CP.pdf" docs\project_paper.pdf
