@@ -1,4 +1,5 @@
 🫁 Automatic Chest Disease Detection Using Deep Learning & XAI
+
 📌 Overview
 
 This project presents an AI-powered system for automatic detection of 14 thoracic diseases from chest X-ray images using a fine-tuned ResNet50 model integrated with Explainable AI (Grad-CAM).
