@@ -43,6 +43,7 @@ Explainable AI: Grad-CAM
 Image Processing & Visualization: NumPy, PIL, Matplotlib
 
 ## 📂 Project Structure
+```bash
 ├── app/                 # Streamlit app and inference logic
 ├── models/              # Trained model weights
 ├── data/                # Sample chest X-ray images
