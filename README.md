@@ -1,12 +1,12 @@
-#🫁 Automatic Chest Disease Detection Using Deep Learning & XAI
+# 🫁 Automatic Chest Disease Detection Using Deep Learning & XAI
 
-📌 Overview
+## 📌 Overview
 
 This project presents an AI-powered system for automatic detection of 14 thoracic diseases from chest X-ray images using a fine-tuned ResNet50 deep learning model integrated with Explainable Artificial Intelligence (XAI) through Grad-CAM.
 
 The system is deployed as a Streamlit web application, enabling users to upload chest X-ray images, obtain multi-label disease predictions with probability scores, and visualize heatmaps highlighting clinically relevant regions that influenced the model’s decisions.
 
-🚀 Key Features
+## 🚀 Key Features
 
 Multi-label classification of 14 thoracic diseases
 
@@ -18,7 +18,7 @@ Real-time inference via Streamlit web interface
 
 User-friendly and clinically interpretable outputs
 
-🧠 Model Architecture
+## 🧠 Model Architecture
 
 Backbone: ResNet50 (ImageNet pre-trained)
 
@@ -30,7 +30,7 @@ Loss Function: Binary Cross-Entropy (BCE)
 
 Explainability Module: Grad-CAM applied to the final convolutional layer
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 Programming Language: Python
 
@@ -41,3 +41,13 @@ Web Framework: Streamlit
 Explainable AI: Grad-CAM
 
 Image Processing & Visualization: NumPy, PIL, Matplotlib
+
+## 📂 Project Structure
+├── app/                 # Streamlit app and inference logic
+├── models/              # Trained model weights
+├── data/                # Sample chest X-ray images
+├── notebooks/           # Model training and experiments
+├── docs/                # Report, architecture diagrams, and results
+├── requirements.txt     # Project dependencies
+└── README.md
+
