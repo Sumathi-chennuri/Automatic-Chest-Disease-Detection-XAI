@@ -1,8 +1,9 @@
 torch
 torchvision
-streamlit
 numpy
-pillow
+pandas
 matplotlib
-pytorch-grad-cam
+scikit-learn
+streamlit
 opencv-python
+Pillow
