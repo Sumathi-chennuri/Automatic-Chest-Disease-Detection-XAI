@@ -47,13 +47,22 @@ Image Processing & Visualization: NumPy, PIL, Matplotlib
 The Streamlit web application is launched using the following command:
 
 ```bash
-streamlit run C:\Users\Admin\PycharmProjects\PythonProject1\cp.py
 
 ## 📂 Project Structure
-├── app/                 # Streamlit app and inference logic
-├── data/                # Sample chest X-ray images
-├── docs/                # Report, architecture diagrams, and results
-├── requirements.txt     # Project dependencies
-└── README.md
 
+Automatic-Chest-Disease-Detection-XAI/
+│
+├── src/                      # Streamlit app and model logic
+│   └── app.py
+│
+├── docs/                     # Documentation and outputs
+│   ├── Report.pdf
+│   ├── results.png
+│   └── input.png
+│
+├── architecture.png          # System architecture diagram
+├── requirements.txt          # Project dependencies
+├── demo_video_link.txt       # Google Drive demo video link
+├── setup_instructions.md     # Steps to run the project
+└── README.md
 
